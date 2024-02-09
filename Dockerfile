@@ -8,4 +8,4 @@ MAINTAINER vicheakbank
 COPY target/eurekaserver-1.0.0.jar eurekaserver-1.0.0.jar
 
 # Execute application
-ENTRYPOINT ["java", "-jar", "/configserver-1.0.0.jar"] 
+ENTRYPOINT ["java", "-jar", "/eurekaserver-1.0.0.jar"] 
